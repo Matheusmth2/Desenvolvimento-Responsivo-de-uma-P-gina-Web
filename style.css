@@ -16,11 +16,18 @@ h1 {
 }
 
 .box {
-  background-color: #2d96db;
+  background: linear-gradient(135deg, #2d96db, #1c6ea4);
   color: white;
   padding: 40px 0;
   font-size: 20px;
-  border-radius: 8px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.box:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 /* Breakpoint 1280px (6 colunas) */
