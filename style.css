@@ -3,10 +3,13 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   text-align: center;
+  background: #f5f7fa;
+  color: #333;
 }
 
 h1 {
   margin: 20px 0;
+  font-size: 1.8rem;
 }
 
 .container {
